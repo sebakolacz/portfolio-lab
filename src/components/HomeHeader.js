@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 
 function HomeHeader() {
   return (
@@ -12,8 +13,8 @@ function HomeHeader() {
         <div className="home__menu">
           <ul className="home__menu-list">
             <li className="home__menu-list-item">Start</li>
-            <li className="home__menu-list-item">O co chodzi?</li>
-            <li className="home__menu-list-item">O nas</li>
+            <Link to="simplesteps" smooth={true} duration={1000}><li className="home__menu-list-item">O co chodzi?</li></Link>
+            <Link to="aboutus" smooth={true} duration={1000}><li className="home__menu-list-item">O nas</li></Link>
             <li className="home__menu-list-item">Fundacja i organizacje</li>
             <li className="home__menu-list-item">Kontakt</li>
           </ul>
