@@ -1,0 +1,92 @@
+body {
+    overflow-x: hidden;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: $font-base;
+    padding-right: 142px;
+    &__image {
+        height: 100vh;
+        width: 45vw;
+        background: url('../../assets/Hero\ Image.png');
+        background-size: cover;
+        background-position: -500px;
+    }
+    &__components {
+        width: 50vw;
+    }
+    &__login {
+        display: flex;
+        justify-content: flex-end;
+        padding: 37px 0 0 0;
+        color: $color-gray2;
+        &-btn {
+            width: 90px;
+            height: 36px;
+            font-size: 13px;
+            border: 0;
+            background-color: transparent;
+        }
+        &-btn:hover {
+            border: 0.75px solid $color-yellow;
+        }
+    }
+    &__menu {
+        width: 50vw;
+        padding: 17px 0 0 8px;
+        display: flex;
+        margin-right: 8px;
+        justify-content: flex-end;
+    }
+    &__menu-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 683px;
+        height: 42px;
+    }
+    &__menu-list-item {
+        padding: 9px 20px;
+        cursor: pointer;
+    }
+    &__menu-list-item:hover {
+        border: 0.75px solid $color-text;
+        padding: 8px 19px;
+    }
+    &__main {
+        width: 674px;
+        height: 350px;
+        margin-top: 210px;
+    }
+    &__main-title {
+        font-size: 36px;
+        text-align: center;
+        height: 107px;
+        line-height: 50px;
+        color: $color-text;
+    }
+    &__main-logo {
+        width: 253px;
+        height: 33px;
+        margin: 25px auto;
+        background: url('../../assets/Decoration.svg');
+    }
+    &__main-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    &__main-btn {
+        width: 310px;
+        height: 120px;
+        background-color: transparent;
+        border: 0.75px solid $color-text;
+    }
+    &__main-btn-text {
+        font-size: 36px;
+        font-weight: 300;
+        color: $color-text;
+    }
+}
