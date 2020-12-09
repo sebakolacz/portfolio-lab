@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function SimpleSteps() {
   return (
@@ -31,9 +33,11 @@ function SimpleSteps() {
                 <h1 className="simplesteps__component-text">kurier przyjedzie<br /> w dogodnym terminie</h1>
             </div>
         </div>
-        <button className="simplesteps__btn">
-            <p className="simplesteps__btn-text">ODDAJ<br />RZECZY</p>
-        </button>
+        <Link to="logowanie">
+            <button className="simplesteps__btn">
+                <h1 className="simplesteps__btn-text">ODDAJ<br />RZECZY</h1>
+            </button>
+        </Link>
     </div>
   )
 }

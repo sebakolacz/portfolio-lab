@@ -6,7 +6,11 @@
 @import './scss/elements/homethreecolumns';
 @import './scss/elements/simplesteps';
 @import './scss/elements/aboutus';
+@import './scss/elements/whoweare';
 
-body {
+@import './scss/elements/login';
+@import './scss/elements/register';
+
+body, div, h1, button {
     font-family: $font-base;
 }
