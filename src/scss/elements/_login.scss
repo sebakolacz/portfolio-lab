@@ -78,6 +78,7 @@
     }
     &__btn {
         width: 117px;
+        height: 50px;
         background-color: transparent;
         border: 0;
     }
@@ -116,13 +117,5 @@
         border: 0;
         margin: 0 67.25px;
         border-bottom: 1px solid $color-text;
-    }
-    &__components-info {
-        width: 1344px;
-        height: 277px;
-    }
-    &__component-info {
-        width: 100%;
-        height: 81px;
     }
 }

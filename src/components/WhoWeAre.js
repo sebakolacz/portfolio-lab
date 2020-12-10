@@ -34,6 +34,11 @@ function WhoWeAre() {
                 <div className="whoweare__component-info-right">ubrania, jedzenie, ciepłe koce</div>
             </div>
         </div>
+        <div className="whoweare__buttons">
+            <button className="whoweare__btn">1</button>
+            <button className="whoweare__btn">2</button>
+            <button className="whoweare__btn">3</button>
+        </div>
     </div>
   )
 }

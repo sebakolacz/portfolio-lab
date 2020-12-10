@@ -45,5 +45,54 @@
         font-size: 22px;
         color: $color-text;
         margin: 70px auto 0;
+        line-height: 30px;
+    }
+    &__components-info {
+        width: 1344px;
+        height: 277px;
+    }
+    &__component-info {
+        width: 100%;
+        height: 81px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 34px;
+        border-bottom: 1px solid $color-gray;
+    }
+    &__component-info:nth-child(3) {
+        border-bottom: 0;
+    }
+    &__component-info-left {
+        width: 600px;
+        height: 50px;
+    }
+    &__component-info-left-title {
+        font-size: 26px;
+        color: $color-text;
+    }
+    &__component-info-left-text {
+        font-size: 18px;
+        color: $color-text;
+        margin-top: 6px;
+    }
+    &__component-info-right {
+        font-size: 18px;
+        color: $color-text;
+        margin: 15px 37px 0 0;
+    }
+    &__buttons {
+        width: 155px;
+        height: 50px;
+        margin: 63px auto 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn {
+        width: 40px;
+        background-color: transparent;
+        border: 0;
+    }
+    &__btn:hover {
+        border: 0.75px solid $color-text;
     }
 }

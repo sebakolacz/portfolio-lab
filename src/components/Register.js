@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -7,7 +8,9 @@ function Login() {
         <div className="register__image"></div>
         <div className="register__components">
             <div className="register__register">
-            <button className="register__register-btn home__register-btn-sign-in">Zaloguj</button>
+            <Link to="logowanie">
+                <button className="register__register-btn home__register-btn-sign-in">Zaloguj</button>
+            </Link>
             <button className="register__register-btn home__register-btn-sign-up">Załóż konto</button>
             </div>
             <div className="register__menu">
@@ -30,7 +33,9 @@ function Login() {
     </div>
     <div className="register__buttons">
         <button className="register__btn"><h1 className="register__btn-style">Załóż konto</h1></button>
-        <button className="register__btn"><h1 className="register__btn-style">Zaloguj się</h1></button>
+        <Link to="logowanie">
+            <button className="register__btn"><h1 className="register__btn-style">Zaloguj się</h1></button>
+        </Link>
     </div>
     </>
   )
