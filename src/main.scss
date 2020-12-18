@@ -7,9 +7,11 @@
 @import './scss/elements/simplesteps';
 @import './scss/elements/aboutus';
 @import './scss/elements/whoweare';
+@import './scss/elements/contact';
 
 @import './scss/elements/login';
 @import './scss/elements/register';
+@import './scss/elements/logout';
 
 body, div, h1, button {
     font-family: $font-base;

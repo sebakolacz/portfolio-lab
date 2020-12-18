@@ -22,7 +22,7 @@ function HomeHeader() {
             <Link2 to="simplesteps" smooth={true} duration={1000}><li className="home__menu-list-item">O co chodzi?</li></Link2>
             <Link2 to="aboutus" smooth={true} duration={1000}><li className="home__menu-list-item">O nas</li></Link2>
             <Link2 to="whoweare" smooth={true} duration={1000}><li className="home__menu-list-item">Fundacja i organizacje</li></Link2>
-            <li className="home__menu-list-item">Kontakt</li>
+            <Link2 to="contact" smooth={true} duration={1000}><li className="home__menu-list-item">Kontakt</li></Link2>
           </ul>
         </div>
         <div className="home__main">

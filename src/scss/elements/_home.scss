@@ -90,3 +90,100 @@ body {
         color: $color-text;
     }
 }
+
+@media (min-width: 320px) AND (max-width: 640px) {
+    .home {
+        padding-right: 0;
+        height: 800px;
+        &__image {
+            height: 800px;
+            width: 100%;
+            background: url('../../assets/Hero\ Image.png');
+            background-size: cover;
+            background-position: -500px;
+        }
+        &__components {
+            width: 100%;
+            position: absolute;
+            // background-color: white;
+        }
+        &__login {
+            padding: 37px 0 0 0;
+            width: 90vw;
+            margin: 0 auto;
+            &-btn {
+                width: 95px;
+                height: 36px;
+                font-size: 13px;
+                border: 0;
+                background-color: transparent;
+            }
+            &-btn:hover {
+                border: 0.75px solid $color-yellow;
+            }
+        }
+        &__menu {
+            width: 65vw;
+            padding: 17px 0 0 8px;
+            display: flex;
+            margin-right: 8px;
+            justify-content: flex-end;
+            margin: 30px auto 0;
+        }
+        &__menu-list {
+            flex-direction: column;
+            width: 80vw;
+            height: 220px;
+            margin: 0 auto;
+        }
+        &__menu-list-item {
+            background-color: $color-white2;
+            border-radius: 40px;
+            border: 0.1px solid $color-text;
+        }
+        &__menu-list-item:hover {
+            border: 0.75px solid $color-text;
+            padding: 8px 19px;
+        }
+        &__main {
+            width: 90vw;
+            height: 350px;
+            margin: 50px auto 0;
+            background-color: $color-white2;
+            border-radius: 10%;
+            border: 0.1px solid $color-text;
+        }
+        &__main-title {
+            font-size: 26px;
+            text-align: center;
+            height: auto;
+            line-height: 35px;
+            color: $color-text;
+            padding-top: 30px;
+            width: 80vw;
+            margin: 0 auto;
+        }
+        &__main-logo {
+            width: 253px;
+            height: 33px;
+            margin: 25px auto;
+            background: url('../../assets/Decoration.svg');
+        }
+        &__main-buttons {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 65px;
+        }
+        &__main-btn {
+            width: 40vw;
+            height: auto;
+            background-color: transparent;
+            border: 0;
+        }
+        &__main-btn-text {
+            font-size: 24px;
+            font-weight: 300;
+            color: $color-text;
+        }
+    }
+}

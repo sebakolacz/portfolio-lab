@@ -82,3 +82,17 @@
         color: $color-text;
     }
 }
+
+@media (min-width: 320px) AND (max-width: 640px) {
+    .simplesteps {
+        height: 1350px;
+        &__title {
+            font-size: 26px;
+            width: 300px;
+        }
+        &__components {
+            height: 1000px;
+            flex-direction: column;
+        }
+    }
+}

@@ -32,3 +32,29 @@
         color: $color-text;
     }
 }
+@media (min-width: 320px) AND (max-width: 640px) {
+    .homethreecolumns {
+        flex-direction: column;
+        height: 1200px;
+        background: url('../../assets/3\ Columns\ Background2.png');
+        justify-content: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+    }
+    .htc__component {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        &-number {
+            font-size: 80px;
+        }
+        &-title {
+            margin: 0 auto 15px;
+        }
+        &-text {
+            margin: 0 auto;
+            width: 70vw;
+            font-size: 14px;
+            height: 300px;
+        }
+    }
+}
